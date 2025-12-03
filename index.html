@@ -3,15 +3,17 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O metrô</title>
 </head>
+<script src="script.js"></script>
 <body>
     <main>
 <div class="passo ativo" id="passo-0">
+    <img src="cenário-passo0" alt="">
     <p>Ana trabalhava em um shopping em Curitiba, e costumava sair às 22:30 de seu trabalho. Certo dia, por conta de imprevistos, acabou saindo às 23:15; temendo perder seu metrô, visto que o último saía às 23:20, Ana pensou se corria para pegar o trem ou pegava o ônibus da magrugada.</p>
     <button class="btn-proximo" data-proximo="1">Esperar o ônibus>
     <button class="btn-proximo" data-proximo="2">Tentar pegar o metrô</button>
@@ -39,14 +41,24 @@ A jornada de Ana acaba por aqui.</p>
     <button class="btn-proximo" data-proximo="6">Gritar por socorro</button>
 </div>
 <div class="passo" id="passo-5">
-   <p>Ana desmaia e entra em coma,     é como um sonho, ela pensa em como seria se tivesse ficado no metrô.</p>
+   <p>Após fazer a ligação, Ana consegue ajuda, mas perde uma perna por conta do sangramento, entrando em coma; seu coma é como um sonho, ela pensa em como seria se tivesse ficado no metrô.</p>
     <button class="btn-proximo" data-proximo="4">Continuar no metrô</button>
     <button class="btn-proximo" data-proximo="4">Continuar no metrô</button>
 </div>
-<div class="passo" id="passo-6"></div>
-   
+<div class="passo" id="passo-6">
+   <p>Infelizmente ninguém escutou Ana. Ela ficou lá por muito tempo sem socorro e faleceu pelo sangramento.
+A jornada de Ana acaba por aqui.</p>
+ <button class="btn-proximo" data-proximo="4">Continuar no metrô</button>
+    <button class="btn-proximo" data-proximo="4">Continuar no metrô</button>
+</div>
+<div class="passo" id="passo-7">
+   <p>Ao trocar de vagão, o homem para de gritar, as portas fecham e ele logo diz: Eu avisei, Após a frase ser dita, as portas se fecham com violência, as luzes apagam e o metrô dispara em movimento, o homem então volta a gritar  e diz: este metrô é o trem das almas atormentadas, quem entre nele não sai mais, você será consumida por nós hahahahaha. De repente tudo fica em silêncio, então, apavorada, ela se encolhe e reza por sua vida, mas de súbito, as luzes se acendem e quando abre os olhos vê centenas de almas prestes a consumi-la. De repente, acorda de seu sono profundo e vê que tudo isso era apenas um pesadelo.</p>
+</div>
+<div class="passo" id="passo-8">
+   <p>Ao descer, o homem começa a persegui-la e grita: Você deveria ter descido nequela primeira estação! Agora está condenada a ser consumida por nós, as almas atormentadas do trem das almas! Ana consegue correr mais rápido e sai da estação, mas ao chegar na rua, logo vê as centenas de almas lhe esperando. O final é o mesmo, prestes a ser consumida, acorda de seu sono profundo no hospital.</p>
+</div>
 
-    </main>
+</main>
 <script src="script.js"></script>
 </body>
 </html>
